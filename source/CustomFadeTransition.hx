@@ -104,11 +104,6 @@ class CustomFadeTransition extends MusicBeatSubstate {
 
 	override function destroy() {
 		if(leTween != null) {
-			#if MODS_ALLOWED
-			if(isTransIn) {
-				Paths.destroyLoadedImages();
-			}
-			#end
 			finishCallback();
 			leTween.cancel();
 		}
