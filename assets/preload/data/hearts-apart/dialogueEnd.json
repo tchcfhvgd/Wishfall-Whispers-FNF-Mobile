@@ -1,0 +1,115 @@
+{
+	"dialogue": [
+		{
+			"expression": "sad",
+			"text": "The next day, we said our goodbyes and me and momma headed for the ferry.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.1
+		},
+		{
+			"expression": "sad",
+			"text": "That would be the last day I'd see momma.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "sad",
+			"text": "Something horrible happened on that ferry.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "Dazzling lights, brighter than anything I'd ever seen.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},{
+			"expression": "sad",
+			"text": "It was as if the sky itself was falling, shimmering fragments of stars or moonlight plunging relentlessly into the waters.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "But momma tried so hard to find me... I could hear her calling among the roaring waves...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "...but there was nothing I could do.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.1
+		},
+		{
+			"expression": "sad",
+			"text": "I'm sure I can find her.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "Oh, but I have no clue where I am, nor where to start...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "I've beached up somewhere unfamiliar...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "This place isn't so big, right? I gotta start somewhere...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "Maybe I can find where auntie is at. I just have to try.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "For now, I'll stay strong...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "sad",
+			"text": "I'll see momma again soon.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		}
+	]
+}

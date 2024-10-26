@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bb_Dialogue.png">
+<SubTexture name="idle0000" x="260" y="504" width="270" height="484" frameX="-57" frameY="-50" frameWidth="380" frameHeight="540" />
+<SubTexture name="stoked0000" x="530" y="504" width="259" height="483" frameX="-44" frameY="-51" frameWidth="380" frameHeight="540" />
+<SubTexture name="concerned0000" x="789" y="504" width="270" height="483" frameX="-49" frameY="-51" frameWidth="380" frameHeight="540" />
+<SubTexture name="weary0000" x="1102" y="0" width="270" height="483" frameX="-49" frameY="-51" frameWidth="380" frameHeight="540" />
+<SubTexture name="ummeow0000" x="0" y="504" width="260" height="489" frameX="-48" frameY="-44" frameWidth="380" frameHeight="540" />
+<SubTexture name="worried0000" x="1102" y="483" width="270" height="483" frameX="-49" frameY="-51" frameWidth="380" frameHeight="540" />
+<SubTexture name="disoriented0000" x="0" y="993" width="264" height="481" frameX="-48" frameY="-53" frameWidth="380" frameHeight="540" />
+<SubTexture name="confused0000" x="546" y="0" width="278" height="496" frameX="-77" frameY="-37" frameWidth="380" frameHeight="540" />
+<SubTexture name="angry0000" x="269" y="0" width="277" height="501" frameX="-55" frameY="-39" frameWidth="380" frameHeight="540" />
+<SubTexture name="fumbling0000" x="0" y="0" width="269" height="504" frameX="-62" frameY="-29" frameWidth="380" frameHeight="540" />
+<SubTexture name="uncertain0000" x="824" y="0" width="278" height="496" frameX="-77" frameY="-37" frameWidth="380" frameHeight="540" />
+<SubTexture name="ecstatic0000" x="1372" y="0" width="260" height="482" frameX="-45" frameY="-52" frameWidth="380" frameHeight="540" />
+<SubTexture name="confident0000" x="1074" y="993" width="267" height="476" frameX="-64" frameY="-58" frameWidth="380" frameHeight="540" />
+<SubTexture name="cool0000" x="1341" y="993" width="267" height="476" frameX="-64" frameY="-58" frameWidth="380" frameHeight="540" />
+<SubTexture name="whispering0000" x="1632" y="0" width="267" height="476" frameX="-64" frameY="-58" frameWidth="380" frameHeight="540" />
+<SubTexture name="questioning0000" x="1632" y="476" width="267" height="476" frameX="-64" frameY="-58" frameWidth="380" frameHeight="540" />
+<SubTexture name="suspicious0000" x="1632" y="952" width="267" height="476" frameX="-64" frameY="-58" frameWidth="380" frameHeight="540" />
+<SubTexture name="reassuring0000" x="1899" y="0" width="267" height="476" frameX="-64" frameY="-58" frameWidth="380" frameHeight="540" />
+<SubTexture name="happy0000" x="264" y="993" width="270" height="479" frameX="-61" frameY="-55" frameWidth="380" frameHeight="540" />
+<SubTexture name="reluctant0000" x="534" y="993" width="270" height="479" frameX="-61" frameY="-55" frameWidth="380" frameHeight="540" />
+<SubTexture name="relief0000" x="804" y="993" width="270" height="479" frameX="-61" frameY="-55" frameWidth="380" frameHeight="540" />
+</TextureAtlas>

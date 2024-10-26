@@ -1,0 +1,33 @@
+{
+	"songs": [
+		["Sweet Charade", "gina", [165, 0, 77], 
+		"https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift"
+		],
+		["Star Chasers", "gina", [165, 0, 77], 
+		"https://linktr.ee/flowlimesplatus",
+		"LimeSplatus"
+		]
+	],
+
+	"weekCharacters": [
+		"gina",
+		"bb",
+		"nobody"
+	],
+	"weekBackground": "restaurant",
+
+	"storyName": "Golden Hour",
+	"weekDesc": "",
+	"weekBefore": "tutorial",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+	
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"weekColor": [
+		230, 209, 204
+	],
+
+	"hasLucid": true
+}

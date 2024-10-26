@@ -1,0 +1,297 @@
+{
+	"position": [
+		100,
+		50
+	],
+	"dialogue_pos": "left",
+	"scale": 1.65,
+	"image": "primrose_Dialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "annoyed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "annoyed",
+			"idle_name": "annoyed"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "nervous",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "nervous",
+			"idle_name": "nervous"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "idle",
+			"idle_name": "idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "sad",
+			"idle_name": "sad"
+		},
+		{
+			"loop_name": "dozing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "dozing",
+			"anim": "dozing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "explaining",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "explaining",
+			"anim": "explaining",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "content",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "content",
+			"anim": "content",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "impatient",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "impatient",
+			"anim": "impatient",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "contemplating",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "contemplating",
+			"anim": "contemplating",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "quipping",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "quipping",
+			"anim": "quipping",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "enthusiastic",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "enthusiastic",
+			"anim": "enthusiastic",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "suggesting",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "suggesting",
+			"anim": "suggesting",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "upset",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "upset",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "stubborn",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "stubborn",
+			"anim": "stubborn",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "coy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "coy",
+			"anim": "coy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "whispering",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "whispering",
+			"anim": "whispering",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "interrogative",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "interrogative",
+			"anim": "interrogative",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "challenging",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "challenging",
+			"anim": "challenging",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "suspicious",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "suspicious",
+			"anim": "suspicious",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "cocky",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "cocky",
+			"anim": "cocky",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "daydreaming",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "daydreaming",
+			"anim": "daydreaming",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "casual",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "casual",
+			"anim": "casual",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

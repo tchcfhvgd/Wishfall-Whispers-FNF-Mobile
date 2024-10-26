@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "I really miss Dahlia. Ren not so much.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Luz is probably snug and full staying at their place... I just wanna pet him again.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": ". . . ",
+			"boxState": "normal",
+			"speed": 0.1,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Is there a point to reminiscing like this?",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": ". . . ",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "At least this helps me make sense of everything. I know I'll see them all soon...",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		}
+	]
+}

@@ -1,0 +1,165 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Our story begins at the outskirts of a lavish citadel, in a regionally-renowned restaurant...",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "The Golden Hour.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "The place was tightly packed, but one unlikely guest found himself and his date a lucky spot in the diner.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "laughing",
+			"text": "Stop it, haha! Okay okay, maybe I took a bite once or twice.",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "ecstatic",
+			"text": "And the look on his face! He was completely clueless!!",
+			"boxState": "normal",
+			"portrait": "bb_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "talking",
+			"text": "Haha...! Ah...",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.04
+		},
+		{
+			"expression": "imagining",
+			"text": "It really has been a year since we met that day, huh?",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.06
+		},
+		{
+			"expression": "tired",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.14
+		},
+		{
+			"expression": "wink",
+			"text": "Bruno, thank you for doing this for me.",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "reassuring",
+			"text": "Aw, don't mention it. Just glad to see you so happy today.",
+			"boxState": "normal",
+			"portrait": "bb_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "idle",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.14
+		},
+		{
+			"expression": "pouting",
+			"text": "Sorry to bring this up, but are you sure you don't want me paying for all this instead?",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "cool",
+			"text": "This is my gift to you, Gina. Whatever it took don't matter... So lets enjoy ourselves tonight.",
+			"boxState": "normal",
+			"portrait": "bb_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "tired",
+			"text": "Okay...I'm just worried is all.",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.04
+		},
+		{
+			"expression": "dozing",
+			"text": "'specially since papa ain't paying you and the boys squat.",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "idle",
+			"text": "It's tough, I know, but today is your day! C'mon, food's almost here anyways.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "confident",
+			"text": "Hmph.",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "teasing",
+			"text": "Alright, you're off the hook for now.",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "wink",
+			"text": "Let's enjoy ourselves then, no?",
+			"boxState": "normal",
+			"portrait": "gina_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "cool",
+			"text": "Yeah.",
+			"boxState": "normal",
+			"portrait": "bb_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "questioning",
+			"text": "!!!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "whispering",
+			"text": "The band's coming on stage...",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "reassuring",
+			"text": "So you know what that means!",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "bb_Dialogue"
+		}
+	]
+}

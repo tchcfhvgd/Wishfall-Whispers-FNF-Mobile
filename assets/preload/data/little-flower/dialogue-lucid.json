@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Things aren't going to get better. I just know it.",
+			"boxState": "normal",
+			"speed": 0.02,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "But...",
+			"boxState": "normal",
+			"speed": 0.1,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "perhaps...",
+			"boxState": "normal",
+			"speed": 0.1,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "I can dream a little.",
+			"boxState": "normal",
+			"speed": 0.07,
+			"portrait": "nobody_Dialogue"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gina_Dialogue.png">
+<SubTexture name="wink0000" x="1781" y="475" width="285" height="472" frameX="-97" frameY="-38" frameWidth="400" frameHeight="540" />
+<SubTexture name="talking0000" x="810" y="1112" width="278" height="477" frameX="-98" frameY="-35" frameWidth="400" frameHeight="540" />
+<SubTexture name="impatient0000" x="600" y="631" width="271" height="480" frameX="-99" frameY="-32" frameWidth="400" frameHeight="540" />
+<SubTexture name="scolding0000" x="871" y="631" width="273" height="480" frameX="-99" frameY="-32" frameWidth="400" frameHeight="540" />
+<SubTexture name="annoyed0000" x="1235" y="0" width="273" height="480" frameX="-99" frameY="-32" frameWidth="400" frameHeight="540" />
+<SubTexture name="cocky0000" x="1235" y="480" width="273" height="480" frameX="-99" frameY="-32" frameWidth="400" frameHeight="540" />
+<SubTexture name="confident0000" x="1508" y="0" width="273" height="480" frameX="-99" frameY="-32" frameWidth="400" frameHeight="540" />
+<SubTexture name="smug0000" x="1508" y="480" width="271" height="479" frameX="-100" frameY="-33" frameWidth="400" frameHeight="540" />
+<SubTexture name="silly0000" x="0" y="0" width="361" height="631" frameX="-25" frameY="-34" frameWidth="400" frameHeight="700" />
+<SubTexture name="complaining0000" x="0" y="1112" width="271" height="479" frameX="-100" frameY="-33" frameWidth="400" frameHeight="540" />
+<SubTexture name="teasing0000" x="271" y="1112" width="271" height="479" frameX="-100" frameY="-33" frameWidth="400" frameHeight="540" />
+<SubTexture name="imagining0000" x="1364" y="1112" width="275" height="476" frameX="-100" frameY="-36" frameWidth="400" frameHeight="540" />
+<SubTexture name="pouting0000" x="1088" y="1112" width="276" height="477" frameX="-100" frameY="-35" frameWidth="400" frameHeight="540" />
+<SubTexture name="laughing0000" x="542" y="1112" width="268" height="478" frameX="-100" frameY="-34" frameWidth="400" frameHeight="540" />
+<SubTexture name="speaking0000" x="0" y="1591" width="318" height="468" frameX="-54" frameY="-44" frameWidth="400" frameHeight="540" />
+<SubTexture name="tired0000" x="0" y="631" width="300" height="481" frameX="-85" frameY="-31" frameWidth="400" frameHeight="540" />
+<SubTexture name="dozing0000" x="300" y="631" width="300" height="481" frameX="-85" frameY="-31" frameWidth="400" frameHeight="540" />
+<SubTexture name="idle0000" x="361" y="0" width="278" height="485" frameX="-96" frameY="-27" frameWidth="400" frameHeight="540" />
+<SubTexture name="surprised0000" x="639" y="0" width="295" height="482" frameX="-91" frameY="-30" frameWidth="400" frameHeight="540" />
+<SubTexture name="frustrated0000" x="934" y="0" width="301" height="481" frameX="-85" frameY="-31" frameWidth="400" frameHeight="540" />
+</TextureAtlas>

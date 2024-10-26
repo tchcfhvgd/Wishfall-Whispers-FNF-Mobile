@@ -1,0 +1,465 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF NOTE LEFT MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "BF NOTE DOWN MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF NOTE UP MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF NOTE RIGHT MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hurt",
+			"indices": [],
+			"name": "BF hit"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "BF idle shaking"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "BF dies"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "BF Dead Loop"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF Dead confirm"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "boyfriend dodge"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "boyfriend attack"
+		},
+		{
+			"offsets": [
+				-25,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "bf pre attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "gluto singUP",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singUPReturn",
+			"fps": 24,
+			"name": "gluto singUPReturn",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singLEFTReturn",
+			"fps": 24,
+			"name": "gluto singLEFTReturn",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singRIGHTReturn",
+			"fps": 24,
+			"name": "gluto singRIGHTReturn",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "gluto singLEFT",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "gluto singRIGHT",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				70
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "gluto singDOWN",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				70
+			],
+			"anim": "singDOWNReturn",
+			"fps": 24,
+			"name": "gluto singDOWNReturn",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				70
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "gluto idle",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				70
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "gluto danceRight",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				70
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "gluto danceLeft",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nobody",
+	"position": [
+		-40,
+		360
+	],
+	"healthicon": "bf",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		234,
+		148
+	],
+	"camera_position": [
+		10,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

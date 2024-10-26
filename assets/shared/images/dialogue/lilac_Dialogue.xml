@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="lilac_Dialogue.png">
+<SubTexture name="annoyed0000" x="0" y="476" width="246" height="458" frameX="-74" frameY="-27" frameWidth="400" frameHeight="500" />
+<SubTexture name="shocked0000" x="247" y="0" width="243" height="474" frameX="-86" frameY="-20" frameWidth="400" frameHeight="500" />
+<SubTexture name="surprised0000" x="0" y="0" width="247" height="476" frameX="-78" frameY="-14" frameWidth="400" frameHeight="500" />
+<SubTexture name="complaining0000" x="1228" y="456" width="243" height="455" frameX="-91" frameY="-41" frameWidth="400" frameHeight="500" />
+<SubTexture name="bashful0000" x="0" y="934" width="243" height="454" frameX="-91" frameY="-42" frameWidth="400" frameHeight="500" />
+<SubTexture name="hopeful0000" x="987" y="934" width="241" height="451" frameX="-60" frameY="-38" frameWidth="400" frameHeight="500" />
+<SubTexture name="hurt0000" x="1494" y="0" width="249" height="432" frameX="-87" frameY="-53" frameWidth="400" frameHeight="500" />
+<SubTexture name="distressed0000" x="1228" y="934" width="241" height="449" frameX="-68" frameY="-51" frameWidth="400" frameHeight="500" />
+<SubTexture name="spooked0000" x="243" y="934" width="244" height="454" frameX="-67" frameY="-32" frameWidth="400" frameHeight="500" />
+<SubTexture name="cheeky0000" x="487" y="934" width="253" height="454" frameX="-68" frameY="-32" frameWidth="400" frameHeight="500" />
+<SubTexture name="angry0000" x="1228" y="0" width="266" height="456" frameX="-41" frameY="-29" frameWidth="400" frameHeight="500" />
+<SubTexture name="confused0000" x="740" y="934" width="247" height="452" frameX="-69" frameY="-33" frameWidth="400" frameHeight="500" />
+<SubTexture name="nervous0000" x="246" y="476" width="249" height="458" frameX="-72" frameY="-27" frameWidth="400" frameHeight="500" />
+<SubTexture name="thinking0000" x="490" y="0" width="246" height="461" frameX="-79" frameY="-23" frameWidth="400" frameHeight="500" />
+<SubTexture name="idle0000" x="736" y="0" width="248" height="461" frameX="-48" frameY="-23" frameWidth="400" frameHeight="500" />
+<SubTexture name="nomaidens0000" x="495" y="476" width="249" height="458" frameX="-72" frameY="-27" frameWidth="400" frameHeight="500" />
+<SubTexture name="sad0000" x="984" y="0" width="244" height="457" frameX="-81" frameY="-29" frameWidth="400" frameHeight="500" />
+<SubTexture name="neutral0000" x="984" y="457" width="244" height="457" frameX="-89" frameY="-28" frameWidth="400" frameHeight="500" />
+</TextureAtlas>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="characters.png">
+<SubTexture name="characters basic0000" x="917" y="0" width="851" height="907" frameX="-533" frameY="-100" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="characters white0000" x="0" y="0" width="917" height="978" frameX="-500" frameY="-64" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

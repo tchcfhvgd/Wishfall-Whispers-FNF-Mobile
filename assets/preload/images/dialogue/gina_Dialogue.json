@@ -1,0 +1,271 @@
+{
+	"position": [
+		30,
+		50
+	],
+	"dialogue_pos": "left",
+	"scale": 1.7,
+	"image": "gina_Dialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				3
+			],
+			"anim": "annoyed",
+			"idle_offsets": [
+				0,
+				3
+			],
+			"loop_name": "annoyed",
+			"idle_name": "annoyed"
+		},
+		{
+			"loop_offsets": [
+				0,
+				2
+			],
+			"anim": "complaining",
+			"idle_offsets": [
+				0,
+				2
+			],
+			"loop_name": "complaining",
+			"idle_name": "complaining"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "idle",
+			"idle_name": "idle"
+		},
+		{
+			"loop_offsets": [
+				10,
+				2
+			],
+			"anim": "surprised",
+			"idle_offsets": [
+				10,
+				2
+			],
+			"loop_name": "surprised",
+			"idle_name": "surprised"
+		},
+		{
+			"loop_name": "wink",
+			"idle_offsets": [
+				-10,
+				5
+			],
+			"idle_name": "wink",
+			"anim": "wink",
+			"loop_offsets": [
+				-10,
+				5
+			]
+		},
+		{
+			"loop_name": "talking",
+			"idle_offsets": [
+				0,
+				3
+			],
+			"idle_name": "talking",
+			"anim": "talking",
+			"loop_offsets": [
+				0,
+				3
+			]
+		},
+		{
+			"loop_name": "impatient",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "impatient",
+			"anim": "impatient",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "scolding",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "scolding",
+			"anim": "scolding",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "cocky",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "cocky",
+			"anim": "cocky",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "confident",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "confident",
+			"anim": "confident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "smug",
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "silly",
+			"idle_offsets": [
+				-80,
+				140
+			],
+			"idle_name": "silly",
+			"anim": "silly",
+			"loop_offsets": [
+				-80,
+				140
+			]
+		},
+		{
+			"loop_name": "teasing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "teasing",
+			"anim": "teasing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imagining",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imagining",
+			"anim": "imagining",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "pouting",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "pouting",
+			"anim": "pouting",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "laughing",
+			"idle_offsets": [
+				-7,
+				0
+			],
+			"idle_name": "laughing",
+			"anim": "laughing",
+			"loop_offsets": [
+				-7,
+				0
+			]
+		},
+		{
+			"loop_name": "speaking",
+			"idle_offsets": [
+				-2,
+				0
+			],
+			"idle_name": "speaking",
+			"anim": "speaking",
+			"loop_offsets": [
+				-2,
+				0
+			]
+		},
+		{
+			"loop_name": "tired",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "tired",
+			"anim": "tired",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "dozing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "dozing",
+			"anim": "dozing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "frustrated",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "frustrated",
+			"anim": "frustrated",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

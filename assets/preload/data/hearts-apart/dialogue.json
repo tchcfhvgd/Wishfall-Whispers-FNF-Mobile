@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "sad",
+			"text": "The rain stopped.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "content",
+			"text": "I guess we drove it away, haha.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "content",
+			"text": "Feeling better now?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "sad",
+			"text": "A little, I suppose. I still don't know what to feel about all this.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "idle",
+			"text": "...Will we be okay? Will Luz be okay? Is it okay to leave everything behind like this?",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "explaining",
+			"text": "There's no telling what waits for us after the ferry tomorrow.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "enthusiastic",
+			"text": "Stay by my side, and you will be okay.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "sad",
+			"text": ". . .",
+			"boxState": "normal",
+			"speed": 0.3,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "sad",
+			"text": "...One more song.",
+			"boxState": "normal",
+			"speed": 0.035,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "hopeful",
+			"text": "Maybe that'll cheer me up.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "coy",
+			"text": "Hah, of course my dear.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "daydreaming",
+			"text": "It's just like when you were a wee little girl asking for me to sing for you.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "complaining",
+			"text": "Stop it!! You know asking you this is just embarassing enough as is.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "content",
+			"text": "A little poking fun isn't the end of the world, hehe.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "idle",
+			"text": "Lets sing then.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "coy",
+			"text": "Then, we shall call it a night, no?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "primrose_Dialogue"
+		}
+	]
+}

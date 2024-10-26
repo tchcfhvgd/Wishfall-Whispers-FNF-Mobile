@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="waiter.png">
+<SubTexture name="waiter walking0000" x="211" y="0" width="211" height="298" frameX="-42" frameY="-114" frameWidth="304" frameHeight="436" />
+<SubTexture name="waiter walking0001" x="0" y="0" width="211" height="310" frameX="-42" frameY="-102" frameWidth="304" frameHeight="436" />
+<SubTexture name="waiter walking0002" x="422" y="0" width="214" height="297" frameX="-39" frameY="-114" frameWidth="304" frameHeight="436" />
+<SubTexture name="waiter walking0003" x="0" y="0" width="211" height="310" frameX="-42" frameY="-102" frameWidth="304" frameHeight="436" />
+</TextureAtlas>

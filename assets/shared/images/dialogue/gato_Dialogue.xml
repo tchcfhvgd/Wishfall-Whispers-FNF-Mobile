@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gato_Dialogue.png">
+<SubTexture name="meow0000" x="0" y="0" width="192" height="300" frameX="-52" frameY="-13" frameWidth="300" frameHeight="405" />
+</TextureAtlas>

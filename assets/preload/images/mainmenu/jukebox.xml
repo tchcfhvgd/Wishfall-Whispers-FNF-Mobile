@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jukebox.png">
+<SubTexture name="jukebox white0000" x="0" y="0" width="702" height="978" frameX="-1199" frameY="-64" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="jukebox basic0000" x="702" y="0" width="650" height="907" frameX="-1225" frameY="-100" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

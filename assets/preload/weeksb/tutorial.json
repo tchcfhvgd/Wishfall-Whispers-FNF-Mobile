@@ -1,0 +1,35 @@
+{
+	"songs": [
+		["Little Flower", "primrose", [94, 41, 186],"https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift","https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift"],
+		["Headspace", "primrose", [94, 41, 186],"https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift","https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift"],
+		["Hearts Apart", "primrose", [94, 41, 186],"https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift","https://www.youtube.com/channel/UCA9eeDJ1w1zcSvib4DdyxMQ",
+		"Silverift"]
+	],
+
+	"weekCharacters": [
+		"primrose",
+		"lilac",
+		"nobody"
+	],
+	"weekBackground": "home",
+
+	"storyName": "Live and Forget",
+	"weekDesc": "",
+	"weekBefore": "tutorial",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+
+	"weekColor": [
+		181, 163, 204
+	],
+
+	"hasLucid": true
+}

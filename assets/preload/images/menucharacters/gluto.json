@@ -1,0 +1,11 @@
+{
+	
+	"image": "gluto",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.2,
+	"idle_anim": "danceRight",
+	"confirm_anim": "danceRight"
+}

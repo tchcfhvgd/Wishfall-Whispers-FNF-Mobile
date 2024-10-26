@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="primrose_Dialogue.png">
+<SubTexture name="idle0000" x="299" y="870" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="dozing0000" x="610" y="870" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="explaining0000" x="921" y="870" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="content0000" x="1454" y="0" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="annoyed0000" x="1454" y="419" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="impatient0000" x="1454" y="838" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="nervous0000" x="0" y="1296" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="sad0000" x="311" y="1296" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="contemplating0000" x="622" y="1296" width="311" height="419" frameX="-35" frameY="-50" frameWidth="400" frameHeight="520" />
+<SubTexture name="quipping0000" x="0" y="870" width="299" height="426" frameX="-47" frameY="-43" frameWidth="400" frameHeight="520" />
+<SubTexture name="enthusiastic0000" x="1163" y="0" width="291" height="428" frameX="-58" frameY="-44" frameWidth="400" frameHeight="520" />
+<SubTexture name="suggesting0000" x="2084" y="0" width="328" height="407" frameX="-18" frameY="-62" frameWidth="400" frameHeight="520" />
+<SubTexture name="upset0000" x="1765" y="0" width="319" height="411" frameX="-28" frameY="-58" frameWidth="400" frameHeight="520" />
+<SubTexture name="stubborn0000" x="1250" y="1296" width="318" height="412" frameX="-29" frameY="-57" frameWidth="400" frameHeight="520" />
+<SubTexture name="coy0000" x="933" y="1296" width="317" height="414" frameX="-30" frameY="-56" frameWidth="400" frameHeight="520" />
+<SubTexture name="whispering0000" x="875" y="0" width="288" height="429" frameX="-61" frameY="-42" frameWidth="400" frameHeight="520" />
+<SubTexture name="interrogative0000" x="584" y="0" width="291" height="433" frameX="-58" frameY="-39" frameWidth="400" frameHeight="520" />
+<SubTexture name="challenging0000" x="0" y="437" width="291" height="433" frameX="-58" frameY="-39" frameWidth="400" frameHeight="520" />
+<SubTexture name="suspicious0000" x="291" y="437" width="291" height="433" frameX="-58" frameY="-39" frameWidth="400" frameHeight="520" />
+<SubTexture name="cocky0000" x="582" y="437" width="291" height="433" frameX="-58" frameY="-39" frameWidth="400" frameHeight="520" />
+<SubTexture name="daydreaming0000" x="0" y="0" width="292" height="437" frameX="-57" frameY="-35" frameWidth="400" frameHeight="520" />
+<SubTexture name="casual0000" x="292" y="0" width="292" height="437" frameX="-57" frameY="-35" frameWidth="400" frameHeight="520" />
+</TextureAtlas>

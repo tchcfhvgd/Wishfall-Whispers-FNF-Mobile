@@ -1,0 +1,449 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				130
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "BF HEY",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "BF hit",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "BF idle shaking",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF Dead confirm",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "boyfriend dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "boyfriend attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				130
+			],
+			"anim": "pre-attack",
+			"fps": 24,
+			"name": "bf pre attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "missReturn",
+			"fps": 24,
+			"name": "lilac MISSReturn",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			],
+			"name": "danceRight"
+		},
+		{
+			"offsets": [
+				-25,
+				212
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47
+			],
+			"name": "danceRight"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNReturn",
+			"indices": [],
+			"name": "singDOWNReturn"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			],
+			"name": "singDOWN"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTReturn",
+			"indices": [],
+			"name": "singRIGHTReturn"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTReturn",
+			"indices": [],
+			"name": "singLEFTReturn"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			],
+			"name": "singUP"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			],
+			"name": "singRIGHT"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "singRIGHT MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "singUP MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "singDOWN MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "singLEFT MISS"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPReturn",
+			"indices": [],
+			"name": "singUPReturn"
+		},
+		{
+			"offsets": [
+				-25,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			],
+			"name": "singLEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bb-sit",
+	"position": [
+		-40,
+		360
+	],
+	"healthicon": "bb",
+	"flip_x": true,
+	"healthbar_colors": [
+		66,
+		135,
+		245
+	],
+	"camera_position": [
+		60,
+		-300
+	],
+	"sing_duration": 4,
+	"dynamicFPS": true,
+	"scale": 1.2
+}

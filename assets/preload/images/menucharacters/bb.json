@@ -1,0 +1,11 @@
+{
+	
+	"image": "bb",
+	"position": [
+		15,
+		-40
+	],
+	"scale": 1.2,
+	"idle_anim": "danceRight",
+	"confirm_anim": "danceRight"
+}

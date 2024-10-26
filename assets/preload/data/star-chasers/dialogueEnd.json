@@ -1,0 +1,186 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.025,
+			"portrait": "nobody_Dialogue",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Hollup hollup, I got one more thing I gotta show you."
+		},
+		{
+			"expression": "teasing",
+			"text": "Ohh... I wonder what it might be...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "nobody_Dialogue",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Bruno gets up and reaches under the table."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "nobody_Dialogue",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "He drags out a box with a rag draped over it, setting it on the table."
+		},
+		{
+			"speed": 0.025,
+			"portrait": "bb_Dialogue",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Okay, now pull it off!"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "talking",
+			"text": "Okay, okay..."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "nobody_Dialogue",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Gina pulls off the rag from the box and..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "surprised",
+			"text": "!!!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "beatbud_Dialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Bzzt, bzzt..."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "beatbud_Dialogue",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Bzzzzt!"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "beatbud_Dialogue",
+			"boxState": "normal",
+			"expression": "wink",
+			"text": "Heya hey! Hi hi hi!"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "beatbud_Dialogue",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Gimme a tune, any tune! I gotchu covered!"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "wink",
+			"text": "It's...a jukebox? You made it for me?"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "laughing",
+			"text": "Bruno, I..."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "bb_Dialogue",
+			"boxState": "normal",
+			"expression": "reluctant",
+			"text": "If you don't like it that's okay, I still gotta put in a few more songs."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "bb_Dialogue",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Beatbud talks too. A lot. I can disable that if you'd li-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "beatbud_Dialogue",
+			"boxState": "normal",
+			"expression": "wink",
+			"text": "    ;>"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "laughing",
+			"text": "Bruno, no! I love it! Oh it's so cute!"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "dozing",
+			"text": "Bruno, I can't believe you went through all this effort for me..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "tired",
+			"text": ". . ."
+		},
+		{
+			"speed": 0.025,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "laughing",
+			"text": "Oh, what am I saying? Of course you did this for me."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bb_DIalogue",
+			"boxState": "normal",
+			"expression": "relief",
+			"text": "I'm..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bb_Dialogue",
+			"boxState": "normal",
+			"expression": "reassuring",
+			"text": "...glad you liked it, Gina."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gina_Dialogue",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Hey, I've finished eating here. Lets clean up and try this fella out."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bb_Dialogue",
+			"boxState": "normal",
+			"expression": "cool",
+			"text": "Yup."
+		},
+		{
+			"expression": "reassuring",
+			"text": "Hell of a night...!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		}
+	]
+}

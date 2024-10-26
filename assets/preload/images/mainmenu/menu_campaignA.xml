@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="campaignA.png">
+<SubTexture name="campaignA basic0000" x="856" y="0" width="808" height="930" frameX="-24" frameY="-55" frameWidth="879" frameHeight="1013" />
+<SubTexture name="campaignA white0000" x="0" y="0" width="856" height="986" frameX="0" frameY="-20" frameWidth="879" frameHeight="1013" />
+</TextureAtlas>

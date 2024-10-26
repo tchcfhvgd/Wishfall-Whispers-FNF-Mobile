@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "I don't remember much about Chrysa at all.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "She was momma's golden child...",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Apparently, ever since she left, momma's never been the same.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": ". . .",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "I still don't know what happened to her.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "It's not like momma would ever tell me, though.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "The question nags at me...",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Not because of Chrysa really, but because it reminds me of how much momma hides from me.",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "nobody_Dialogue"
+		}
+	]
+}

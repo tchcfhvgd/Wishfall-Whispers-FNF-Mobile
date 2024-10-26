@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="restauranttablesboppers.png">
+<SubTexture name="restauranttablesboppers idle0000" x="0" y="0" width="1007" height="342" frameX="-613" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers clap0000" x="0" y="342" width="1013" height="342" frameX="-607" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers clap0001" x="1007" y="0" width="1022" height="342" frameX="-598" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers double0000" x="0" y="342" width="1013" height="342" frameX="-607" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers double0001" x="1007" y="0" width="1022" height="342" frameX="-598" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers double0002" x="0" y="342" width="1013" height="342" frameX="-607" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers double0003" x="1007" y="0" width="1022" height="342" frameX="-598" frameY="-310" frameWidth="2200" frameHeight="1238" />
+<SubTexture name="restauranttablesboppers anticipation0000" x="0" y="342" width="1013" height="342" frameX="-607" frameY="-310" frameWidth="2200" frameHeight="1238" />
+</TextureAtlas>

@@ -1,0 +1,214 @@
+{
+	"dialogue": [
+		{
+			"expression": "content",
+			"text": "Ahhh. I remember singing that song to your sister like it was yesterday.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "hopeful",
+			"text": "Oh.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "idle",
+			"text": "Chrysa? You sang it to her too?",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "content",
+			"text": "Why, when she was wee little she'd beg me to sing for her, just like you!",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "sad",
+			"text": ". . . . .",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.25
+		},
+		{
+			"expression": "nervous",
+			"text": "Momma, it's ME standing in front of you.",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "nervous",
+			"text": "Whenevr you mention how much I remind you of her...",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"expression": "nervous",
+			"text": "...It makes me feel like I'm a ghost.", 
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.03
+		},
+		{
+			"speed": 0.05,
+			"portrait": "primrose_Dialogue",
+			"boxState": "normal",
+			"expression": "contemplating",
+			"text": "My flower! You are you. You know that's not how I feel."
+		},
+		{
+			"expression": "stubborn",
+			"text": "Sorry dear, it's just...",
+			"boxState": "normal",
+			"speed": 0.03,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "sad",
+			"text": "I try not to dwell, but it's always just a little tough when her birthday comes around.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "confused",
+			"text": ". . .",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "suggesting",
+			"text": "...Look, Lilac. I don't want you to get hurt.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "upset",
+			"text": "You're strong. Oh so strong. But even the toughest of flowers are delicate things.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue",
+			"boxState": "normal",
+			"expression": "coy",
+			"text": "We've lost so much, and that makes it even more important to protect what we have left."
+		},
+		{
+			"expression": "confused",
+			"text": "But we're leaving our home tomorrow. Shouldn't we stay and protect it?",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "stubborn",
+			"text": "There's nothing left for us here.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "idle",
+			"text": "Your auntie is expecting us at the mainland. She had to leave the island too, long ago.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "enthusiastic",
+			"text": "So I'm glad you got to see Chrysa today at her resting place. It was a long trek, but one we might not take again.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "Mmm. Yeah, I guess so..",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "sad",
+			"text": "It's nerve-racking to think we're moving away tomorrow.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "casual",
+			"text": "Do not fret. I am a little nervous about the move too, but we'll learn to embrace it together.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "casual",
+			"text": "Just think about all the sights we'll see...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "nervous",
+			"text": "There's still so many spots on the island we haven't been to.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "casual",
+			"text": "And perhaps a nice new cottage off the coast...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "nervous",
+			"text": "This is our home and I don't see why that has to change.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "quipping",
+			"text": "C'mon, Lilac. Lets relax a little and take our minds off these troubles.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "idle",
+			"text": "You're just distracting yourself.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "coy",
+			"text": "Sometimes, a little headspace is the best thing you can do for yourself. Now follow along.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "confused",
+			"text": ". . .",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "lilac_Dialogue"
+		}
+	]
+}

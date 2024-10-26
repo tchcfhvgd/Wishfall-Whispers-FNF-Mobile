@@ -1,0 +1,228 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Lilac and her mother Primrose were walking back home, neither saying much on the way.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "The two arrived at their cottage, warmed by soft indoor lights in the quiet cold of dusk.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "It was pouring. But the tapping of the rain on the window was oddly soothing.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Primrose broke the silence.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "nobody_Dialogue"
+		},
+		{
+			"expression": "stubborn",
+			"text": "Now don't forget to leave your umbrella by the door, dear.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "contemplating",
+			"text": "Let it dry out, we'll need it again early in the morning tomorrow.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "primrose_Dialogue"
+		},
+		{
+			"expression": "hopeful",
+			"text": "Mhm!",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "neutral",
+			"text": "One sec...",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Lilac wringed out her umbrella and tossed it onto a crinkly old mat.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "She followed Primrose into the bedroom, not before she reached down to pet Luz, who was waiting patiently for some scratches.",
+			"boxState": "normal",
+			"portrait": "nobody_Dialogue",
+			"speed": 0.02
+		},
+		{
+			"expression": "talk",
+			"text": "Mraow!",
+			"boxState": "normal",
+			"portrait": "gato_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "neutral",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "sad",
+			"text": "...sigh.",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "nervous",
+			"text": "My flower, why the face?",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "idle",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "Momma, you know why...",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "thinking",
+			"text": "Our home and our garden, Luz...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "thinking",
+			"text": "I can't stop thinking about what will happen to them now that we're leaving...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "lilac_Dialogue"
+		},
+		{
+			"expression": "explaining",
+			"text": "Bah. They'll be just fine without us. Luz can take care of himself...",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.04
+		},
+		{
+			"expression": "stubborn",
+			"text": "...so a girl like you's got no reason to be so anxious.",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "daydreaming",
+			"text": "Besides, you already do enough worrying as is.",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "sad",
+			"text": "I do not!",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "idle",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.05
+		},
+		{
+			"expression": "coy",
+			"text": "Hah... Oh, but you do.",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.04
+		},
+		{
+			"expression": "confused",
+			"text": "Hm. Maybe it's the bad weather. The heavy rain... It's relaxing, but thunder still gets to me...",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "cheeky",
+			"text": "It reminds me of that time we got drenched in the rain and sang our way back home.",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "bashful",
+			"text": "It was stressful, but weirdly fun? We won't end up in that situation again once we leave.",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "hurt",
+			"text": "It's embarassing to think about now, but...",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "hurt",
+			"text": "That night in the rain...",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "confused",
+			"text": "Do you remember the song we sang?",
+			"boxState": "normal",
+			"portrait": "lilac_Dialogue",
+			"speed": 0.035
+		},
+		{
+			"expression": "enthusiastic",
+			"text": "Why of course I remember! I've known it for as long as I can remember.",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.025
+		},
+		{
+			"expression": "upset",
+			"text": "Oh...how did it go again?",
+			"boxState": "normal",
+			"portrait": "primrose_Dialogue",
+			"speed": 0.025
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"position": [
+		0,
+		50
+	],
+	"dialogue_pos": "center",
+	"scale": 1,
+	"image": "beatbud_Dialogue",
+	"animations": [
+		{
+			"loop_name": "idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "idle",
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "happy",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "wink",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "wink",
+			"anim": "wink",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

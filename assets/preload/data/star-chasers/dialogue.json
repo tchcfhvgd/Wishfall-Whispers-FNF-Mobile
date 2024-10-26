@@ -1,0 +1,95 @@
+{
+	"dialogue": [
+		{
+			"expression": "pouting",
+			"text": "Damn, you're getting a little rusty.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "cool",
+			"text": "Ha, ha. I ain't rusty.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "wink",
+			"text": "I'm serious.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "cool",
+			"text": "I'm giving it my all here!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "smug",
+			"text": "Are you though...?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "reassuring",
+			"text": "Danm right!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "laughing",
+			"text": "Haha! Okay, I'll stop.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "imagining",
+			"text": "Your singing is just as good as ever, Bruno.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "wink",
+			"text": "Which is to say...it's kinda funny but still endearing.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "cool",
+			"text": "I guess I can take that, heh.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "whispering",
+			"text": "I'm sure that you can't STAND my voice, but I can't get enough of yours. So I requested a special song we could sing together.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		},
+		{
+			"expression": "surprised",
+			"text": "*Gasp* Wait, don't tell me...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gina_Dialogue"
+		},
+		{
+			"expression": "ecstatic",
+			"text": "Yup, it's the one.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bb_Dialogue"
+		}
+	]
+}

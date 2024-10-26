@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="beatbud_Dialogue.png">
+<SubTexture name="idle0000" x="0" y="0" width="228" height="375" frameX="-39" frameY="-16" frameWidth="300" frameHeight="405" />
+<SubTexture name="wink0000" x="228" y="0" width="228" height="375" frameX="-39" frameY="-16" frameWidth="300" frameHeight="405" />
+<SubTexture name="happy0000" x="456" y="0" width="228" height="375" frameX="-39" frameY="-16" frameWidth="300" frameHeight="405" />
+</TextureAtlas>

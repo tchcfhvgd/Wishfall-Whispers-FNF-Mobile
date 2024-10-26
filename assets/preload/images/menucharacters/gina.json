@@ -1,0 +1,11 @@
+{
+	
+	"image": "gina",
+	"position": [
+		15,
+		-40
+	],
+	"scale": 1.2,
+	"idle_anim": "idle",
+	"confirm_anim": "idle"
+}

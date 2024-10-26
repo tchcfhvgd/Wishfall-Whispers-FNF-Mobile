@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="campaign_menu_UI_assets.png"><SubTexture name="arrow left0000" x="70" y="0" width="93" height="84"/>
+<SubTexture name="arrow right0000" x="163" y="0" width="92" height="83"/>
+<SubTexture name="arrow push left0000" x="0" y="88" width="77" height="68"/>
+<SubTexture name="arrow push right0000" x="77" y="88" width="76" height="68"/>
+<SubTexture name="lock0000" x="0" y="0" width="70" height="88"/>
+</TextureAtlas>

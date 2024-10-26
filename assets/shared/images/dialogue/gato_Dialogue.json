@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		60,
+		80
+	],
+	"scale": 1.9,
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "meow",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "meow",
+			"idle_name": "meow"
+		}
+	],
+	"image": "gato_Dialogue"
+}
