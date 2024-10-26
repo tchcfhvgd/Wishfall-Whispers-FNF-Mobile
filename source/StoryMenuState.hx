@@ -24,7 +24,6 @@ import flixel.addons.display.FlxBackdrop;
 import flash.display.BlendMode;
 import WeekData;
 import MenuCharacter;
-import CustomWipeTransition;
 import PlayState;
 using StringTools;
 
@@ -113,9 +112,6 @@ class StoryMenuState extends MusicBeatState
 		//camFollow.setPosition(camFollow.x, -500);
 		
 		//newYPos = FlxMath.lerp(camFollowPos.x, camFollow.y, 1);
-		#if MODS_ALLOWED
-		Paths.destroyLoadedImages();
-		#end
 		WeekData.reloadWeekFiles(true);
 		if(curWeek >= WeekData.weeksList.length) curWeek = 0;
 		persistentUpdate = persistentDraw = true;
@@ -141,7 +137,7 @@ class StoryMenuState extends MusicBeatState
 		// bg.updateHitbox();
 		bgDiamonds.updateHitbox();
 		
-		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, 60, 60, true, true);
+		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, XY);
 		scrollDiamonds.blend = BlendMode.ADD;
 		scrollDiamonds.alpha = 0;
 		scrollDiamonds.scrollFactor.set(1, 1);
