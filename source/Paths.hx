@@ -16,6 +16,7 @@ import openfl.geom.Rectangle;
 import openfl.system.System;
 import openfl.utils.AssetType;
 import openfl.utils.Assets as OpenFlAssets;
+import MusicBeatState;
 
 using StringTools;
 #if sys
@@ -83,6 +84,11 @@ class Paths
 
 		// run the garbage collector for good measure lmfao
 		System.gc();
+		#if cpp
+		cpp.NativeGc.run(true);
+		#elseif hl
+		hl.Gc.major();
+		#end
 	}
 
 	// define the locally tracked assets
@@ -220,26 +226,105 @@ class Paths
 		return file;
 	}
 
-	inline static public function voices(song:String):Any
+	inline static public function musics(key:String, ?library:String):Sound
 	{
-		#if html5
-		return 'songs:assets/songs/${formatToSongPath(song)}/Voices.$SOUND_EXT';
-		#else
-		var songKey:String = '${formatToSongPath(song)}/Voices';
-		var voices = returnSound('songs', songKey);
-		return voices;
-		#end
+		var file:Sound = returnSound('music', key, library);
+		return file;
 	}
 
-	inline static public function inst(song:String):Any
+	inline static public function menuMusic(key:String, ?library:String):Sound
+		{
+			// #if MODS_ALLOWED
+			// var file:String = modsMusic(key);
+			// if(FileSystem.exists(file)) {
+			// 	if(!customSoundsLoaded.exists(file)) {
+			// 		customSoundsLoaded.set(file, Sound.fromFile(file));
+			// 	}
+			// 	return customSoundsLoaded.get(file);
+			// }
+			// #end
+			
+			var time = Date.now();
+			trace("Hour is " + time.getHours() + ".");
+
+			var worldTimeName;
+			var menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListDay'));
+
+			if(time.getHours() >=6 && time.getHours() < 20)
+				{
+					if(time.getHours() >= 11)
+					{
+						if(time.getHours() < 17) 
+							{
+								worldTimeName = "day";
+								var menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListDay'));
+								trace("Hour is " + time.getHours() + ".");
+
+							}
+						else {
+								trace("Hour is " + time.getHours() + ".");
+								worldTimeName = "evening";
+								if(FlxG.random.int(0,1) == 0)
+									menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListDay'));
+								else
+									menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListNight'));
+							}
+					}
+					else 
+						{
+							trace("Hour is " + time.getHours() + ".");
+							worldTimeName = "morning";
+							if(FlxG.random.int(0,1) == 0)
+								menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListDay'));
+							else
+								menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListNight'));
+						}
+				}
+			else 
+					{
+						worldTimeName = "night";
+						trace("Hour is " + time.getHours() + ".");
+						menuMusicList = CoolUtil.coolTextFile(Paths.txt('menuMusicListNight'));
+					}
+
+				trace("Menu music list is " + menuMusicList + ".");
+				var menuMusic:Int = FlxG.random.int(0, menuMusicList.length - 1);
+				trace("Menu music int is " + menuMusic + ".");
+				key = menuMusicList[menuMusic];
+				trace("Menu music is " + key + ".");
+				var file:Sound = returnSound('music', key, library);
+		                return file;
+
+		}
+	
+	inline static public function voices(song:String, ?isLucid:Bool):Any
 	{
-		#if html5
-		return 'songs:assets/songs/${formatToSongPath(song)}/Inst.$SOUND_EXT';
-		#else
-		var songKey:String = '${formatToSongPath(song)}/Inst';
-		var inst = returnSound('songs', songKey);
+		var lucidText:String = '';
+			if(isLucid) lucidText = '-lucid';
+		if(MusicBeatState.glutoMode) lucidText = '-gluto';
+		var songKey:String = 'songs/${formatToSongPath(song)}/Voices' + lucidText;
+		var voices = returnSound('music', songKey);
+		return voices;
+	}
+
+	inline static public function inst(song:String, ?isLucid:Bool):Any
+	{
+		var lucidText:String = '';
+			if(isLucid) lucidText = '-lucid';
+			if(MusicBeatState.glutoMode) lucidText = '-gluto';
+		var songKey:String = 'songs/${formatToSongPath(song)}/Inst' + lucidText;
+		var inst = returnSound('music', songKey);
 		return inst;
-		#end
+	}
+
+	inline static public function instJukebox(song:String, ?isLucid:Bool):Any
+	{
+		var lucidText:String = '';
+			if(isLucid) lucidText = '-lucid';
+			if(MusicBeatState.glutoMode) lucidText = '-gluto';
+		var songKey:String = 'songs/${formatToSongPath(song)}/Inst' + lucidText;
+		var inst = returnSound('music', songKey);
+		return inst;
 	}
 
 	static public function getTextFromFile(key:String, ?ignoreMods:Bool = false):String
