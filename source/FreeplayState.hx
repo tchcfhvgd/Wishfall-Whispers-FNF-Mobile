@@ -397,8 +397,6 @@ class FreeplayState extends MusicBeatState
 		}
 		else #end if (accepted)
 		{
-			var wipe:CustomWipeTransition = new CustomWipeTransition();
-			wipe.startVideoWipe('wipeOut');
 			var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
 			if((curDifficulty == 3)) 
 				var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
