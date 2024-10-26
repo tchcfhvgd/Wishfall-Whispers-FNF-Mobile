@@ -71,7 +71,6 @@ class Main extends Sprite
 
 	private function setupGame():Void
 	{
-		Paths.getModFolders();
 		ClientPrefs.startControls();
 		addChild(new FlxGame(gameWidth, gameHeight, initialState, framerate, framerate, skipSplash, startFullscreen));
 
