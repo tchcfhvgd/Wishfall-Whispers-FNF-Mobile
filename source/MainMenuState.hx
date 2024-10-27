@@ -309,6 +309,10 @@ class MainMenuState extends MusicBeatState
 		wipe.startVideoWipe('wipeIn');
 		
 		super.create();
+
+		#if mobile
+                addVirtualPad(UP_DOWN, A_B);
+                #end
 	}
 
 
