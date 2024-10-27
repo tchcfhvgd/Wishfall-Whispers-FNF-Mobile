@@ -30,7 +30,6 @@ class CustomWipeTransition extends MusicBeatSubstate {
 
 	public function startVideoWipe(name:String):Void {
 
-
 		if(!ClientPrefs.lowQuality)
 		{
 			var video:FlxVideo = new FlxVideo();
@@ -47,7 +46,7 @@ class CustomWipeTransition extends MusicBeatSubstate {
 						}
 			        return;
 		        }, true);
-		
+		}
 	}
 
 	override function update(elapsed:Float) {
