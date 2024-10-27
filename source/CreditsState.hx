@@ -97,6 +97,8 @@ class CreditsState extends MusicBeatState
 		scrollDiamonds.alpha = 0.1;
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(30, 30);
+		scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
