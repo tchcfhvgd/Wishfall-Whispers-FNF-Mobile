@@ -324,7 +324,7 @@ class Paths
 			if(isLucid) lucidText = '-lucid';
 			if(MusicBeatState.glutoMode) lucidText = '-gluto';
 		var songKey:String = 'songs/${formatToSongPath(song)}/Inst' + lucidText;
-		var inst2 = returnSound('music', songKey);
+		var inst = returnSound('music', songKey);
 		return inst;
 
 	}
