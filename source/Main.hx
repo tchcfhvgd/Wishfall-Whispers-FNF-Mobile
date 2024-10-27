@@ -74,7 +74,15 @@ class Main extends Sprite
 		ClientPrefs.startControls();
 		addChild(new FlxGame(gameWidth, gameHeight, initialState, framerate, framerate, skipSplash, startFullscreen));
 
-	        fpsVar = new FPSCounter(10, 3, 0xFFFFFF);
+	        FlxG.signals.preStateSwitch.add(function () {
+				Paths.clearStoredMemory(true);
+				FlxG.bitmap.dumpCache();
+		});
+		FlxG.signals.postStateSwitch.add(function () {
+			Paths.clearUnusedMemory();
+		});
+		
+		fpsVar = new FPSCounter(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		Lib.current.stage.align = "tl";
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
