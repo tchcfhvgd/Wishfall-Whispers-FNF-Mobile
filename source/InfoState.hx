@@ -530,6 +530,10 @@ class InfoState extends MusicBeatState
 		var wipe:CustomWipeTransition = new CustomWipeTransition();
 		wipe.startVideoWipe('wipeIn');
 		
+		#if mobile
+                addVirtualPad(LEFT_RIGHT, A_B);
+                #end
+				
 		super.create();
 	}
 
