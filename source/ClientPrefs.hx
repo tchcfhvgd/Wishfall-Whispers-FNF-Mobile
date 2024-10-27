@@ -19,6 +19,11 @@ class ClientPrefs {
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
+	public static var padalpha:Float = 0.6;
+	public static var hitboxalpha:Float = 0.5;
+	public static var mobileCEx:Bool = false;
+	public static var hitboxType:String = "Gradient";
+	public static var hitboxPos:Bool = true;
 	public static var hideHud:Bool = false;
 	public static var noteOffset:Int = 0;
 	public static var arrowHSV:Array<Array<Int>> = [[60, -4, 12], [140, -15, 0], [155, -10, 0], [-125, -25, 10]];
@@ -61,6 +66,11 @@ class ClientPrefs {
 		FlxG.save.data.middleScroll = middleScroll;
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.flashing = flashing;
+		FlxG.save.data.hitboxalpha = hitboxalpha;
+		FlxG.save.data.padalpha = padalpha;
+		FlxG.save.data.mobileCEx = mobileCEx;
+		FlxG.save.data.hitboxType = hitboxType;
+		FlxG.save.data.hitboxPos = hitboxPos;
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
 		FlxG.save.data.lowQuality = lowQuality;
@@ -139,6 +149,21 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.hideHud != null) {
 			hideHud = FlxG.save.data.hideHud;
+		}
+		if(FlxG.save.data.mobileCEx != null) {
+			mobileCEx = FlxG.save.data.mobileCEx;
+		}
+		if(FlxG.save.data.hitboxType != null) {
+			hitboxType = FlxG.save.data.hitboxType;
+		}
+		if(FlxG.save.data.hitboxPos != null) {
+			hitboxPos = FlxG.save.data.hitboxPos;
+		}
+		if(FlxG.save.data.hitboxalpha != null) {
+			hitboxalpha = FlxG.save.data.hitboxalpha;
+		}
+		if(FlxG.save.data.padalpha != null) {
+			padalpha = FlxG.save.data.padalpha;
 		}
 		if(FlxG.save.data.noteOffset != null) {
 			noteOffset = FlxG.save.data.noteOffset;
