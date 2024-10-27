@@ -27,11 +27,16 @@ class FlashingState extends MusicBeatState
 			"Thank you for checking out	 Wishfall Whispers!\n
 			There is a web version and a download version.\n
 			Go to OPTIONS to adjust performance settings.\n\n
-			Press ESCAPE or ENTER to continue",
+			Press B or A to continue",
 			32);
 		warnText.setFormat("a Anti Corona", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
+
+		#if mobile
+                addVirtualPad(NONE, A_B);
+                addVirtualPadCamera(false);
+                #end
 	}
 
 	override function update(elapsed:Float)
