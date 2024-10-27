@@ -267,6 +267,14 @@ class FreeplayState extends MusicBeatState
 		add(lucidFlash);
 		FlxTween.color(lucidFlash, 1, 0x00000000, 0x00f1a9ff);
 		super.create();
+		var video:FlxVideo = new FlxVideo();
+		video.load(Paths.video('wipeIn'));
+		video.play();
+		video.onEndReached.add(function()
+		{
+		        video.dispose();
+			return;
+		}, true);
 	}
 
 	override function closeSubState() {
@@ -397,6 +405,14 @@ class FreeplayState extends MusicBeatState
 		}
 		else #end if (accepted)
 		{
+			var video:FlxVideo = new FlxVideo();
+		                                                        video.load(Paths.video('wipeOut'));
+		                                                        video.play();
+		                                                        video.onEndReached.add(function()
+		                                                        {
+			                                                     video.dispose();
+			                                                     return;
+		                                                        }, true);
 			var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
 			if((curDifficulty == 3)) 
 				var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
