@@ -62,6 +62,15 @@ class OptionsState extends MusicBeatState
 			grpOptions.add(optionText);
 		}
 		changeSelection();
+		
+		var video:FlxVideo = new FlxVideo();
+		video.load(Paths.video('wipeIn'));
+		video.play();
+		video.onEndReached.add(function()
+		{
+		        video.dispose();
+			return;
+		}, true);
 		super.create();
 	}
 
