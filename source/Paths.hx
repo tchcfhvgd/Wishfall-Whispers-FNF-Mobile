@@ -302,16 +302,8 @@ class Paths
 		var lucidText:String = '';
 			if(isLucid) lucidText = '-lucid';
 		if(MusicBeatState.glutoMode) lucidText = '-gluto';
-		if(isLucid)
-		{
-		var songKey:String = 'songs/${formatToSongPath(song)}/Voices' + lucidText;
-		var voices = returnSound('music', songKey);
-		}
-		else
-		{
                 var songKey:String = 'songs/${formatToSongPath(song)}/Voices' + lucidText;
 		var voices = returnSound('music', songKey);
-		}
 
 		return voices;
 	}
@@ -331,16 +323,8 @@ class Paths
 		var lucidText:String = '';
 			if(isLucid) lucidText = '-lucid';
 			if(MusicBeatState.glutoMode) lucidText = '-gluto';
-		if(isLucid)
-		{
 		var songKey:String = 'songs/${formatToSongPath(song)}/Inst' + lucidText;
-		var inst = returnSound('music', songKey);
-		}
-		else
-		{
-		var songKey:String = 'songs/${formatToSongPath(song)}/Inst' + lucidText;
-		var inst = returnSound('music', songKey);
-		}
+		var inst2 = returnSound('music', songKey);
 		return inst;
 
 	}
