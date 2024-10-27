@@ -289,16 +289,6 @@ class PlayState extends MusicBeatState
 	
 	override public function create()
 	{
-
-		
-		#if MODS_ALLOWED
-		Paths.destroyLoadedImages(resetSpriteCache);
-		#end
-		
-		
-		
-		resetSpriteCache = false;
-
 		instance = this;
 
 		if (FlxG.sound.music != null)
@@ -1152,11 +1142,13 @@ class PlayState extends MusicBeatState
 			gf.visible = false;
 		}
 
-		scrollDiamonds = new FlxBackdrop(Paths.image('diamondsLUCID'), 0.2, 0.2, true, true);
+		scrollDiamonds = new FlxBackdrop(Paths.image('diamondsLUCID'), XY);
 		scrollDiamonds.scrollFactor.set(1, 1);
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(-100, -100);
 		scrollDiamonds.alpha = 0;
+	        scrollDiamonds.x = 0.2;
+		scrollDiamonds.y = 0.2;
 
 		switch(curStage)
 		{
