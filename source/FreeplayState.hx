@@ -171,6 +171,8 @@ class FreeplayState extends MusicBeatState
 		scrollDiamonds.blend = BlendMode.ADD;
 		scrollDiamonds.alpha = 0.1;
 		scrollDiamonds.scrollFactor.set(1, 1);
+		scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(-50, -50);
 		restaurantFilter = new BGSprite(null, -FlxG.width, -FlxG.height, 0, 0);
