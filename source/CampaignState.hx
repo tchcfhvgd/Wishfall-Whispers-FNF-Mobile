@@ -165,6 +165,9 @@ class CampaignState extends MusicBeatState
 
 		changeItem();
 
+		var wipe:CustomWipeTransition = new CustomWipeTransition();
+		wipe.startVideoWipe('wipeIn');
+		
 		// #if ACHIEVEMENTS_ALLOWED
 		// Achievements.loadAchievements();
 		// var leDate = Date.now();
@@ -266,7 +269,9 @@ class CampaignState extends MusicBeatState
 						{
 							new FlxTimer().start(0.35, function(tmr:FlxTimer)
 								{
-			
+									var wipe:CustomWipeTransition = new CustomWipeTransition();
+									wipe.startVideoWipe('wipeOut');
+									
 									// var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(1000, 1000, FlxColor.BLACK);
 									// add(black);
 								});
