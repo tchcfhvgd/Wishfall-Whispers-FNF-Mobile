@@ -434,12 +434,22 @@ class StoryMenuBState extends MusicBeatState
 		add(lucidFlash);
 		FlxTween.color(lucidFlash, 1, 0x00000000, 0x00f1a9ff);
 		super.create();
+
+		#if mobile
+                addVirtualPad(LEFT_RIGHT, A_B_C);
+                addVirtualPadCamera(false);
+                #end
 	}
 
 	override function closeSubState() {
 		persistentUpdate = true;
 		changeWeek();
 		super.closeSubState();
+		#if mobile
+		removeVirtualPad();
+		addVirtualPad(LEFT_RIGHT, A_B_C);
+                addVirtualPadCamera(false);
+		#end
 	}
 
 	override function update(elapsed:Float)
@@ -536,10 +546,13 @@ class StoryMenuBState extends MusicBeatState
 				selectWeek();
 				trace("Alternate Mode is at:" + PlayState.alternateMode);
 			}
-			else if(controls.RESET)
+			else if(controls.RESET #if mobile || virtualPad.buttonC.justPressed #end)
 			{
 				persistentUpdate = false;
 				openSubState(new ResetScoreSubState('', curDifficulty, '', curWeekB));
+			        #if mobile
+				removeVirtualPad();
+				#end
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
 		}
