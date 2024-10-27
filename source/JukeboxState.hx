@@ -173,6 +173,8 @@ class JukeboxState extends MusicBeatState
 		scrollDiamonds.alpha = 0.1;
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(30, 30);
+		scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 
 		var banner:FlxSprite;
 		banner = new FlxSprite().loadGraphic(Paths.image('jukeboxbanner'));
