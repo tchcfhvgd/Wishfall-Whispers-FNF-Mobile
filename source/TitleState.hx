@@ -253,6 +253,8 @@ class TitleState extends MusicBeatState
 		scrollDiamonds.alpha = 0.1;
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(30, 30);
+		scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 
 		var slice:FlxSprite = new FlxSprite().loadGraphic(Paths.image('titleSlice'));
 		slice.antialiasing = ClientPrefs.globalAntialiasing;
