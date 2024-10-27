@@ -307,6 +307,16 @@ class Paths
 		return voices;
 	}
 
+	inline static public function voicesJukebox(song:String, ?isLucid:Bool):Any
+	{
+		var lucidText:String = '';
+			if(isLucid) lucidText = '-lucid';
+		if(MusicBeatState.glutoMode) lucidText = '-gluto';
+		var songKey:String = 'songs/${formatToSongPath(song)}/Voices' + lucidText;
+		var voices = returnSound('music', songKey);
+		return voices;
+	}
+
 	inline static public function inst(song:String, ?isLucid:Bool):Any
 	{
 		var lucidText:String = '';
