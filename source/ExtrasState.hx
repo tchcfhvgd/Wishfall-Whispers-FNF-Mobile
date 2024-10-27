@@ -46,8 +46,6 @@ class ExtrasState extends MusicBeatState
 
 	override function create()
 	{
-		
-
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -165,6 +163,15 @@ class ExtrasState extends MusicBeatState
 
 		changeItem();
 
+		var video:FlxVideo = new FlxVideo();
+		video.load(Paths.video('wipeIn'));
+		video.play();
+		video.onEndReached.add(function()
+		{
+		        video.dispose();
+			return;
+		}, true);
+		
 		// #if ACHIEVEMENTS_ALLOWED
 		// Achievements.loadAchievements();
 		// var leDate = Date.now();
@@ -266,6 +273,14 @@ class ExtrasState extends MusicBeatState
 						{
 							new FlxTimer().start(0.35, function(tmr:FlxTimer)
 								{
+									var video:FlxVideo = new FlxVideo();
+		                                                        video.load(Paths.video('wipeOut'));
+		                                                        video.play();
+		                                                        video.onEndReached.add(function()
+		                                                        {
+			                                                     video.dispose();
+			                                                     return;
+		                                                        }, true);
 									// var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(1000, 1000, FlxColor.BLACK);
 									// add(black);
 								});
