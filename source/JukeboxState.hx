@@ -65,9 +65,6 @@ class JukeboxState extends MusicBeatState
 
 	override function create()
 	{
-		#if MODS_ALLOWED
-		Paths.destroyLoadedImages();
-		#end
 		WeekData.reloadWeekFiles(false);
 		WeekData.reloadWeekBFiles(false);
 		#if desktop
@@ -170,7 +167,7 @@ class JukeboxState extends MusicBeatState
 		// bg.updateHitbox();
 		bgDiamonds.updateHitbox();
 		var scrollDiamonds:FlxBackdrop;
-		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, 60, 60, true, true);
+		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, XY);
 		scrollDiamonds.scrollFactor.set(0, 0);
 		scrollDiamonds.blend = BlendMode.MULTIPLY;
 		scrollDiamonds.alpha = 0.1;
@@ -287,8 +284,6 @@ class JukeboxState extends MusicBeatState
 		// diffText.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.WHITE, RIGHT);
 		// add(diffText);
 
-		var wipe:CustomWipeTransition = new CustomWipeTransition();
-		wipe.startVideoWipe('wipeIn');
 		super.create();
 	}
 
