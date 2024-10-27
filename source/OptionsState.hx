@@ -774,10 +774,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 		'Hide HUD',
 		'Hide Song Length',
 		'Flashing Lights',
-		'Camera Zooms'
-		#if !mobile
-		,'FPS Counter'
-		#end
+		'Camera Zooms',
+		'FPS Counter'
 	];
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
@@ -863,6 +861,12 @@ class PreferencesSubstate extends MusicBeatSubstate
 		}
 		changeSelection();
 		reloadValues();
+
+                #if mobile
+                addVirtualPad(LEFT_FULL, A_B);
+                addVirtualPadCamera(false);
+                #end
+
 	}
 
 	var nextAccept:Int = 5;
