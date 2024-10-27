@@ -269,11 +269,21 @@ class FreeplayState extends MusicBeatState
 		super.create();
 		var wipe:CustomWipeTransition = new CustomWipeTransition();
 		wipe.startVideoWipe('wipeIn');
+
+		#if mobile
+                addVirtualPad(LEFT_FULL, A_B_X_Y);
+                addVirtualPadCamera(false);
+                #end
 	}
 
 	override function closeSubState() {
 		changeSelection();
 		super.closeSubState();
+		#if mobile
+		removeVirtualPad();
+		addVirtualPad(LEFT_FULL, A_B_X_Y);
+                addVirtualPadCamera(false);
+		#end
 	}
 
 	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int)
@@ -319,7 +329,7 @@ class FreeplayState extends MusicBeatState
 		var upP = controls.UI_UP_P;
 		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
-		var space = FlxG.keys.justPressed.SPACE;
+		var space = FlxG.keys.justPressed.SPACE #if mobile || virtualPad.buttonX.justPressed #end;
 
 		var shiftMult:Int = 1;
 		if(FlxG.keys.pressed.SHIFT) shiftMult = 3;
@@ -433,8 +443,11 @@ class FreeplayState extends MusicBeatState
 			destroyFreeplayVocals();
 			JukeboxState.destroyFreeplayVocals();
 		}
-		else if(controls.RESET)
+		else if(controls.RESET #if mobile || virtualPad.buttonY.justPressed #end)
 		{
+			#if mobile
+			removeVirtualPad();
+			#end
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
