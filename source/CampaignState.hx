@@ -19,7 +19,6 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import lime.app.Application;
 import Achievements;
-import CustomWipeTransition;
 import editors.MasterEditorMenu;
 
 #if sys
@@ -165,8 +164,6 @@ class CampaignState extends MusicBeatState
 		var scrLogo:Float = 0.000;
 
 		changeItem();
-		var wipe:CustomWipeTransition = new CustomWipeTransition();
-		wipe.startVideoWipe('wipeIn');
 
 		// #if ACHIEVEMENTS_ALLOWED
 		// Achievements.loadAchievements();
@@ -267,10 +264,9 @@ class CampaignState extends MusicBeatState
 						}
 						else
 						{
-							var wipe:CustomWipeTransition = new CustomWipeTransition();
 							new FlxTimer().start(0.35, function(tmr:FlxTimer)
 								{
-									wipe.startVideoWipe('wipeOut');
+			
 									// var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(1000, 1000, FlxColor.BLACK);
 									// add(black);
 								});
