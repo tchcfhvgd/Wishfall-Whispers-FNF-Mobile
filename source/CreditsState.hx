@@ -150,6 +150,10 @@ class CreditsState extends MusicBeatState
 		var wipe:CustomWipeTransition = new CustomWipeTransition();
 		wipe.startVideoWipe('wipeIn');
 		
+		#if mobile
+                addVirtualPad(UP_DOWN, A_B);
+                #end
+		
 		super.create();
 	}
 
