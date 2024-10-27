@@ -266,8 +266,6 @@ class FreeplayState extends MusicBeatState
 		//lucidFlash.blend = ADD;
 		add(lucidFlash);
 		FlxTween.color(lucidFlash, 1, 0x00000000, 0x00f1a9ff);
-		var wipe:CustomWipeTransition = new CustomWipeTransition();
-		wipe.startVideoWipe('wipeIn');
 		super.create();
 	}
 
