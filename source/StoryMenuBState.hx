@@ -24,7 +24,6 @@ import flixel.addons.display.FlxBackdrop;
 import flash.display.BlendMode;
 import WeekData;
 import MenuCharacter;
-import CustomWipeTransition;
 import PlayState;
 using StringTools;
 
@@ -115,9 +114,6 @@ class StoryMenuBState extends MusicBeatState
 		//camFollow.setPosition(camFollow.x, -500);
 		
 		//newYPos = FlxMath.lerp(camFollowPos.x, camFollow.y, 1);
-		#if MODS_ALLOWED
-		Paths.destroyLoadedImages();
-		#end
 		WeekData.reloadWeekBFiles(true);
 		if(curWeekB >= WeekData.weeksBList.length) curWeekB = 0;
 		persistentUpdate = persistentDraw = true;
@@ -169,13 +165,14 @@ class StoryMenuBState extends MusicBeatState
 		// bg.setGraphicSize(Std.int(bg.width * 1.175));
 		// bg.updateHitbox();
 		bgDiamonds.updateHitbox();
-		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, 60, 60, true, true);
+		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, XY);
 		scrollDiamonds.blend = BlendMode.ADD;
 		scrollDiamonds.alpha = 0;
 		scrollDiamonds.scrollFactor.set(1, 1);
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(-50, -50);
-		
+                scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 
 		restaurantFilter = new BGSprite(null, -FlxG.width, -FlxG.height, 0, 0);
 		restaurantFilter.makeGraphic(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3), FlxColor.WHITE);
