@@ -24,7 +24,6 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
-import CustomWipeTransition;
 #if sys
 import sys.FileSystem;
 #end
@@ -63,8 +62,6 @@ class OptionsState extends MusicBeatState
 			grpOptions.add(optionText);
 		}
 		changeSelection();
-		var wipe:CustomWipeTransition = new CustomWipeTransition();
-		wipe.startVideoWipe('wipeIn');
 		super.create();
 	}
 
