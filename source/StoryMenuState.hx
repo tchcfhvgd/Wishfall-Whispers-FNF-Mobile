@@ -143,8 +143,8 @@ class StoryMenuState extends MusicBeatState
 		scrollDiamonds.scrollFactor.set(1, 1);
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(-50, -50);
-
-		
+		scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 
 		restaurantFilter = new BGSprite(null, -FlxG.width, -FlxG.height, 0, 0);
 		restaurantFilter.makeGraphic(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3), FlxColor.WHITE);
