@@ -219,6 +219,10 @@ class GameOverSubstate extends MusicBeatSubstate
 		add(camFollowPos);
 
 				//updateCamera = true;
+		#if mobile
+                addVirtualPad(NONE, A_B);
+                addVirtualPadCamera(false);
+                #end
 	}
 
 	override function update(elapsed:Float)
