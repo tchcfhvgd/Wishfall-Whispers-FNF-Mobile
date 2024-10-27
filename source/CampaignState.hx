@@ -47,8 +47,6 @@ class CampaignState extends MusicBeatState
 
 	override function create()
 	{
-		
-
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -182,6 +180,10 @@ class CampaignState extends MusicBeatState
 		// #end
 
 		super.create();
+
+		#if mobile
+                addVirtualPad(LEFT_RIGHT, A_B);
+                #end
 	}
 
 	// #if ACHIEVEMENTS_ALLOWED
