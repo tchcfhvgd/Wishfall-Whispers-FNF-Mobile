@@ -22,7 +22,6 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import lime.app.Application;
 import Achievements;
-import CustomWipeTransition;
 import editors.MasterEditorMenu;
 import WeekData;
 import CharDescData;
@@ -270,8 +269,6 @@ class InfoState extends MusicBeatState
 		var scrLogo:Float = 0.000;
 		
 		changeItem();
-		var wipe:CustomWipeTransition = new CustomWipeTransition();
-		wipe.startVideoWipe('wipeIn');
 		
 		// #if ACHIEVEMENTS_ALLOWED
 		// Achievements.loadAchievements();
@@ -307,7 +304,7 @@ class InfoState extends MusicBeatState
 		// bg.updateHitbox();
 		bgDiamonds.updateHitbox();
 		var scrollDiamonds:FlxBackdrop;
-		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, 60, 60, true, true);
+		scrollDiamonds = new FlxBackdrop(bgDiamonds.graphic, XY);
 		scrollDiamonds.scrollFactor.set(0, 0);
 		scrollDiamonds.blend = BlendMode.MULTIPLY;
 		scrollDiamonds.alpha = 0.1;
@@ -782,10 +779,9 @@ class InfoState extends MusicBeatState
 						}
 						else
 						{
-							var wipe:CustomWipeTransition = new CustomWipeTransition();
 							new FlxTimer().start(0.35, function(tmr:FlxTimer)
 								{
-									wipe.startVideoWipe('wipeOut');
+							
 									// var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(1000, 1000, FlxColor.BLACK);
 									// add(black);
 								});
