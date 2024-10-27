@@ -146,8 +146,6 @@ class CreditsState extends MusicBeatState
 		bg.color = creditsStuff[curSelected][4];
 		intendedColor = bg.color;
 		changeSelection();
-		var wipe:CustomWipeTransition = new CustomWipeTransition();
-		wipe.startVideoWipe('wipeIn');
 		super.create();
 	}
 
