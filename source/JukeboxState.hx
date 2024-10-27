@@ -272,9 +272,9 @@ class JukeboxState extends MusicBeatState
 		add(composerText);
 
 		#if PRELOAD_ALL
-		var leText:String = "Press ENTER to listen to this Song / Press SPACE to to listen to its instrumental / Press SHIFT to visit song artist's page.";
+		var leText:String = "Press A to listen to this Song / Press C to to listen to its instrumental / Press SHIFT to visit song artist's page.";
 		#else
-		var leText:String = "Press ENTER to listen to this Song / Press SPACE to to listen to its instrumental / Press SHIFT to visit song artist's page.";
+		var leText:String = "Press A to listen to this Song / Press C to to listen to its instrumental / Press SHIFT to visit song artist's page.";
 		#end
 		var text:FlxText = new FlxText(textBG.x, textBG.y + 4, FlxG.width, leText, 18);
 		text.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.WHITE, RIGHT);
@@ -288,6 +288,11 @@ class JukeboxState extends MusicBeatState
 
 		var wipe:CustomWipeTransition = new CustomWipeTransition();
 		wipe.startVideoWipe('wipeIn');
+		
+		#if mobile
+                addVirtualPad(UP_DOWN, A_B_C);
+                addVirtualPadCamera(false);
+                #end
 		
 		super.create();
 	}
@@ -358,7 +363,7 @@ class JukeboxState extends MusicBeatState
 		var upP = controls.UI_UP_P;
 		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
-		var space = FlxG.keys.justPressed.SPACE;
+		var space = FlxG.keys.justPressed.SPACE #if mobile || virtualPad.buttonC.justPressed #end;
 
 		var shiftMult:Int = 1;
 		if(FlxG.keys.justPressed.SHIFT && !space && !accepted && !controls.BACK && !upP && !downP && !controls.UI_LEFT_P && !controls.UI_RIGHT_P) 
