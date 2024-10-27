@@ -310,6 +310,8 @@ class InfoState extends MusicBeatState
 		scrollDiamonds.alpha = 0.1;
 		add(scrollDiamonds);
 		scrollDiamonds.velocity.set(30, 30);
+		scrollDiamonds.x = 60;
+		scrollDiamonds.y = 60;
 		
 
 		restaurantFilter = new BGSprite(null, -FlxG.width, -FlxG.height, 0, 0);
