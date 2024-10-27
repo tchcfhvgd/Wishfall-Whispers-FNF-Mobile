@@ -286,14 +286,8 @@ class JukeboxState extends MusicBeatState
 		// diffText.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.WHITE, RIGHT);
 		// add(diffText);
 
-		var video:FlxVideo = new FlxVideo();
-		video.load(Paths.video('wipeIn'));
-		video.play();
-		video.onEndReached.add(function()
-		{
-		        video.dispose();
-			return;
-		}, true);
+		var wipe:CustomWipeTransition = new CustomWipeTransition();
+		wipe.startVideoWipe('wipeIn');
 		
 		super.create();
 	}
